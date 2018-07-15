@@ -14,11 +14,6 @@ ns_w3o="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 
 # Remove attributes and nodes
 xmlstarlet edit \
-           -N pur="$ns_pur" \
-           -N cco="$ns_cco" \
-           -N w3o="$ns_w3o" \
-           -N sod="$ns_sod" \
-           -N ink="$ns_ink" \
            -d "//attribute::*[namespace-uri()='$ns_ink']" \
            -d "//node()[namespace-uri()='$ns_sod']" \
            -d "//attribute::*[namespace-uri()='$ns_sod']" \
