@@ -25,5 +25,5 @@ xmlstarlet edit \
            -d "//node()[namespace-uri()='$ns_pur']" \
            -d "//node()[namespace-uri()='$ns_cco']" \
            -d "//node()[namespace-uri()='$ns_w3o']" "$1" \
-           | sed '1,2d' \
+           | sed '1d' \
            | (printf "%s\n%s\n" "${xml}" "${doc}"; cat)
