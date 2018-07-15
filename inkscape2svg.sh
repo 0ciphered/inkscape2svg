@@ -1,6 +1,10 @@
 #!/bin/sh
 
 # Author: 0ciphered
+# Tested with Kubuntu 16.04.3 and SVG files from Inkscape 0.91
+# Prerequisites: installed xmlstarlet
+# prearrangement: chmod u+x inkscape2svg.sh
+# usage: ./inkscape2svg.sh original.svg > new.svg
 
 xml='<?xml version="1.0" encoding="UTF-8" standalone="no"?>'
 doc='<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">'
