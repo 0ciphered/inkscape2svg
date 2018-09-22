@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Author: 0ciphered
+# Author: c1phered
 # https://github.com/c1phered/inkscape2svg
 #
 # Tested with Kubuntu 16.04.3 and SVG files from Inkscape 0.91
